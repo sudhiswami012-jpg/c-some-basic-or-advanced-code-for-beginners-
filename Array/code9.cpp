@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int arr[5]{1,2,3,4,5};
+    int key = 5;
+    for(int i = 0; i < 5; i++)
+    {
+        if (arr[i] == key)
+        {
+            cout<<"found index :  "<<i<<endl;
+        }
+        
+    }
+    return 0;
+
+}
